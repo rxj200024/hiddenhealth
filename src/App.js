@@ -1,7 +1,12 @@
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import "./styles.scss";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hidden Help</h1>
+      <Home/>
     </div>
   );
 }
